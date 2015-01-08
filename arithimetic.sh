@@ -14,4 +14,4 @@ echo "the multiplication of two numbers is : $mul"
 echo "the substraction is : $subs"
 echo "the div is : $div"
 echo "the valye of c is : $c"
-
+echo "all arthimetic operations are performed"
