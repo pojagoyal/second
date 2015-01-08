@@ -251,4 +251,4 @@
   259  git push -u origin master
   260  git push --help
   261  cd ..
-  262  history >  $(date +"%d-%m-%Y:%T").txt
+  262  history >  $(date +"%d-%m-%Y:%T").sh
