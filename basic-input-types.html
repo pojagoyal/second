@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+  		<title>Input tags</title>
+  		<style type="text/css">
+  				.button1{ background-color: #888888;border-color: #888888;}
+  		</style>
+  	
+	</head>
+
+		<body>
+  			<form action="layout2.html" method="get" oninput="x.value=parseInt(a.value)+parseInt(b.value)" >
+				<fieldset>
+					<legend> Personal information:</legend>
+					First name:
+					<input type="text" name="firstname" placeholder="First Name" autofocus>
+					<br>
+					Last name:
+					<input type="text" name="lastname" value="Mouse">
+					<br><br>
+					<input type="password" name="pwd">
+					<br>
+					Encryption: <keygen name="security">
+					<input type="range"   id="a" name="a" value="50">
+					+
+					<input type="number" id="b" name="b" value="50">
+					=
+					<output type="text" name="x" for="a b"></output>
+					<br><br>
+					<input type="submit" value="SUBMIT">
+				</fieldset>
+				 <select name="cars">
+						<option value="volvo" >Volvo</option>
+						<option value="saab" selected>Saab</option>
+						<option value="fiat">Fiat</option>
+						<option value="audi">Audi</option>
+				</select>
+				<input list="browsers">
+				<datalist id="browsers">
+  					<option value="Internet Explorer">
+  					<option value="Firefox">
+  					<option value="Chrome">
+  					<option value="Opera">
+  					<option value="Safari">
+				</datalist> 
+				 <button class="button1" type="button" onclick="alert('Hello World!')" >Click Me!</button>
+				 <fieldset><input type="file" name="img" ></fieldset>
+			</form> 
+		</body>
+</html>
