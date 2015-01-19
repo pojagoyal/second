@@ -1,6 +1,6 @@
 function validateFirstName(n){
     var re=/[A-Za-z -']$/;
-    var val =document.getElementById(n).value
+    var val =document.getElementById(n).value;
     alert(re.test(val))
     if(re.test(val)){
         document.getElementById(n).style.background='#ccffcc';
@@ -8,8 +8,8 @@ function validateFirstName(n){
         return true;
     }else{
         
-        document.getElementById(n).style.background='red';
-        document.getElementById(n + 'error').style.display="none";
+        document.getElementById(n).style.background='#eeeeee';
+        document.getElementById(n + 'error').style.display="block";
         return false;
     }        
     
